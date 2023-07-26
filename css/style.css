@@ -47,7 +47,7 @@ p {
 .bg-primary {
   background: #93cb52;
   color: #fff;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .l-heading {
@@ -195,7 +195,7 @@ p {
 }
 
 #who .who-img {
-  background: url("../Img/Ou_clients.jpg") no-repeat center center/cover;
+  background: url("../img/ou_.jpg") no-repeat center center/cover;
 }
 
 /* clients */
@@ -206,7 +206,8 @@ p {
 #clients .items img {
   display: block;
   margin: auto;
-  padding: 20px;
+  width: 70%;
+  padding: 15px;
 }
 
 /* Contact */
@@ -216,11 +217,11 @@ p {
 }
 
 #contact .map,
-#contact,
-.contact-form {
+#contact .contact-form {
   flex: 1;
+  /* width: 100%; */
 }
-.form-group {
+#contact .contact-form .form-group {
   margin: 0.75rem;
 }
 
@@ -230,7 +231,8 @@ p {
 
 #contact .contact-form input,
 #contact .contact-form textarea {
-  padding: 0.5px;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 #main_contact {
@@ -239,10 +241,6 @@ p {
   width: 100%;
 }
 
-/* .footer {
-  background: #333;
-  position: static;
-  bottom: 0;
-  padding: 6rem 12rem;
-  height: 1rem;
-} */
+#main-footer {
+  align-items: center;
+}
